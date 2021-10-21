@@ -81,6 +81,6 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
     - name: Swap staging to production
       run: |
-        az webapp deployment slot swap --name githubworkshop760339244 --resource-group githubworkshop760339244 slot staging
+        az webapp deployment slot swap --name githubworkshop760339244 --resource-group githubworkshop760339244 --slot staging
       
      

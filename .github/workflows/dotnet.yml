@@ -67,7 +67,7 @@ jobs:
       with:
         app-name: githubworkshop760339244
         slot-name: staging
-        images: ${{ secrets.ACR_SERVER ]]/eshop:${{ github.run_id }}
+        images: ${{ secrets.ACR_SERVER }}/eshop:${{ github.run_id }}
         
   deployProduction:
     runs-on: ubuntu-latest
